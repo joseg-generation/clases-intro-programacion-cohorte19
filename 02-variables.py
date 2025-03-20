@@ -34,12 +34,25 @@ print(f"Estado inicial: {puerta_abierta}")
 puerta_abierta = True
 print(f"Estado final: {puerta_abierta}")
 
+
+puerta_abierta = "Jose"
 # utilizamos la variable
-# print(resultado)
+print(puerta_abierta)
 
 
 nombre_estudiante = "Alberto"
 
 apellido_estudiante = "Pérez"
 
+print(nombre_estudiante) # Alberto
 
+nombre_estudiante = "José"
+
+print(nombre_estudiante) # José
+
+nombre_estudiante_1 = "Alberto"
+nombre_estudiante_2 = "José"
+nombre_estudiante_3 = "María"
+nombre_estudiante_4 = "Luis"
+
+print("La lista de estudiantes es: " + nombre_estudiante_1 + ", " + nombre_estudiante_2 + ", " + nombre_estudiante_3 + ", " + nombre_estudiante_4)
